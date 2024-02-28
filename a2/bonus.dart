@@ -32,5 +32,5 @@ void main() {
   }
 
   print(
-      '$centena mooedas de 100, $cinquenta mooedas de 50, $dez mooedas de 10, $precoDoCone mooedas de 5, $unidade mooedas de 1,');
+      '$centena mooedas de 100, $cinquenta mooedas de 50, $dez mooedas de 10, $preco_cone mooedas de 5, $unidade mooedas de 1,');
 }
