@@ -1,34 +1,34 @@
 void main() {
-  int valorDig = 199;
+  int valorDigitado = 199;
   int centena = 0;
   int cinquenta = 0;
   int dez = 0;
-  int precoDoCone = 0;
+  int preco_cone = 0;
   int unidade = 0;
 
-  if (valorDig >= 100) {
-    centena = (valorDig / 100).toInt();
-    valorDig -= centena * 100;
+  if (valorDigitado >= 100) {
+    centena = (valorDigitado / 100).toInt();
+    valorDigitado -= centena * 100;
   }
 
-  if (valorDig >= 50) {
-    cinquenta = (valorDig / 50).toInt();
-    valorDig -= cinquenta * 50;
+  if (valorDigitado >= 50) {
+    cinquenta = (valorDigitado / 50).toInt();
+    valorDigitado -= cinquenta * 50;
   }
 
-  if (valorDig >= 10) {
-    dez = (valorDig / 10).toInt();
-    valorDig -= dez * 10;
+  if (valorDigitado >= 10) {
+    dez = (valorDigitado / 10).toInt();
+    valorDigitado -= dez * 10;
   }
 
-  if (valorDig >= 5) {
-    precoDoCone = (valorDig / 5).toInt();
-    valorDig -= precoDoCone * 5;
+  if (valorDigitado >= 5) {
+    preco_cone = (valorDigitado / 5).toInt();
+    valorDigitado -= preco_cone * 5;
   }
 
   if (valorDig >= 1) {
     unidade = (valorDig / 1).toInt();
-    valorDig -= unidade * 1;
+    valorDigitado -= unidade * 1;
   }
 
   print(
